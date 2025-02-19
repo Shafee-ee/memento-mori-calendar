@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memento Mori Calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Memento Mori Calendar</h1>
+
+        <!-- Birthday Input Form -->
+        <div class="birthday-form">
+            <label for="birthday">Select your Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <button id="generate-calendar">Generate Calendar</button>
+        </div>
+
+        <!-- Calendar Section -->
+        <div class="calendar">
+            <!-- Months and days will be displayed here -->
+        </div>
+
+        <!-- Remaining Days Section -->
+        <div class="remaining-days">
+            <p>Days Remaining: <span id="remaining-days">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
