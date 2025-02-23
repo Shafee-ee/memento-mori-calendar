@@ -63,23 +63,39 @@ h1 {
 
 .calendar {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(13, 1fr);
+    gap: 5px;
     margin: 20px 0;
 }
 
 .calendar div {
     padding: 20px;
-    background-color: #e9ecef;
-    border-radius: 5px;
+    background-color: #a17e65;
+    border-radius: 3px;
     font-size: 14px;
     font-weight: bold;
+    text-align: center;
 }
 
 .remaining-days {
     margin-top: 20px;
     font-size: 18px;
     color: #333;
+}
+
+.calendar .past {
+    background-color: #e59585;
+}
+
+.calendar .future {
+    font-size: 20px;
+
+    background-color: #77b257;
+}
+
+.calendar .cross {
+    font-size: 20px;
+    color: #9c4331;
 }
 
 #remaining-days {
@@ -90,7 +106,7 @@ h1 {
 
 
 .week {
-    border: 1px solid #d42121;
+    border: 1px solid #ccc;
     height: 20px;
     width: 20px;
 }
