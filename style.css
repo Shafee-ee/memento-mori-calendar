@@ -85,5 +85,20 @@ h1 {
 #remaining-days {
     font-size: 24px;
     font-weight: bold;
-    color: #ff5733;
+    color: #d42e0d;
+}
+
+
+.week {
+    border: 1px solid #d42121;
+    height: 20px;
+    width: 20px;
+}
+
+.past {
+    background-color: #d3d3d3;
+}
+
+.future {
+    background-color: #4CAF50;
 }
