@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 1px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -14,8 +14,9 @@ body {
 }
 
 .container {
+    padding-top: 100px;
     text-align: center;
-    max-width: 800px;
+    max-width: 500px;
     width: 100%;
     padding: 20px;
     background-color: white;
@@ -63,13 +64,13 @@ h1 {
 
 .calendar {
     display: grid;
-    grid-template-columns: repeat(13, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 5px;
     margin: 20px 0;
 }
 
 .calendar div {
-    padding: 20px;
+    padding: 10px;
     background-color: #a17e65;
     border-radius: 3px;
     font-size: 14px;
@@ -88,13 +89,12 @@ h1 {
 }
 
 .calendar .future {
-    font-size: 20px;
-
+    font-size: 10px;
     background-color: #77b257;
 }
 
 .calendar .cross {
-    font-size: 20px;
+    font-size: 10px;
     color: #9c4331;
 }
 
@@ -107,8 +107,8 @@ h1 {
 
 .week {
     border: 1px solid #ccc;
-    height: 20px;
-    width: 20px;
+    height: 2px;
+    width: 2px;
 }
 
 .past {

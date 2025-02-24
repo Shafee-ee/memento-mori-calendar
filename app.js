@@ -23,13 +23,13 @@ function calculateWeeks(birthday) {
             weekBox.textContent = "❌";
         } else {
             weekBox.classList.add("future");
-            weekBox.textContent = "✔️";
+            weekBox.textContent = "";
         }
 
         calendarDiv.appendChild(weekBox);
     }
 
-    remainingDaysSpan.textContent = weeksRemaining * 7; // To display days remaining
+    remainingDaysSpan.textContent = weeksRemaining * 7;
 
     return { weeksLived, weeksRemaining };
 
